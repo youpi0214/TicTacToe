@@ -1,0 +1,86 @@
+.root {
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}
+.alert {
+	-fx-background-color:black;
+}
+
+.victoire {
+	
+}
+
+.defaite {
+	
+}
+
+.case {
+	-fx-pref-width: 90.0;
+	-fx-pref-height: 90.0;
+	-fx-background-color: RGB(255.0, 255.0, 255.0, 0.3);
+}
+
+.case:hover {
+	-fx-background-color: RGB(255.0, 255.0, 255.0, 0.4);
+}
+
+.boutonsCtrl {
+	-fx-background-color: linear-gradient(RGB(0.0, 255.0, 65.0, 1.0),
+		RGB(255.0, 255.0, 255.0, 0.0));
+	-fx-text-alignement: top;
+	-fx-text-fill: black;
+	-fx-font-size: 18.0;
+	-fx-font-weight: bold;
+}
+
+.boutonsCtrl:hover {
+	-fx-background-color: linear-gradient(RGB(0.0, 255.0, 65.0, 1.0),
+		RGB(255.0, 255.0, 255.0, 0.1));
+}
+
+.boutonsCtrl:pressed {
+	-fx-background-color: linear-gradient(RGB(150.0, 150.0, 90.0, 1.0),
+		RGB(255.0, 255.0, 255.0, 0.1));
+}
+
+.lbls {
+	-fx-font-size: 30.0;
+	-fx-text-fill: RGB(0.0, 200.0, 100.0);
+}
+
+.BarreMenu {
+	-fx-background-color: RGB(0.0, 255.0, 65.0, 0.1);
+}
+
+.BarreMenu .menu-button:hover {
+	-fx-background-color: RGB(0.0, 255.0, 65.0, 0.5);
+}
+
+.BarreMenu .label {
+	-fx-text-fill: RGB(0.0, 255.0, 65.0);
+}
+
+.BarreMenu:focused {
+	-fx-background-color: RGB(0.0, 255.0, 65.0);
+}
+
+.BarreMenu:focused .label {
+	-fx-text-fill: black;
+}
+
+
+.context-menu {
+	-fx-background-color: RGB(0.0, 255.0, 65.0, 0.5);
+}
+.BarreMenuItems:hover {
+	-fx-background-color: red;
+}
+
+
+.context-menu .menu-item:hover {
+	-fx-background-color: RGB(0.0, 255.0, 65.0, 0.8);
+}
+
+.context-menu .label {
+	-fx-text-fill: black;
+}

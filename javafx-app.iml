@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/../TicTacToe" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/../TicTacToe/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../TicTacToe/src" isTestSource="false" />
+    </content>
+  </component>
+</module>
